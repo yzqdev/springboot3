@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController
  *
  */
 @RestController
-@RequestMapping("")
+@RequestMapping("/home")
 class HelloController {
     @GetMapping("/hello")
     fun hello():String{
